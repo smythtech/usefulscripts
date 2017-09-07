@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# tldr; Fixes problem where host looses network connection and gives
+# tldr; Fixes problem where host loses network connection and gives
 # the Pineapple an Internet connection though the host.
 # 
-# The Hak5 Wifi Pineapplle has a known issue where when it's connected
+# Long Version: The Hak5 Wifi Pineapplle has a known issue where when it's connected
 # to a host via the USB interface, it will kill the network connection 
 # on the host it was connected to. This is becuase the Pineapple becomes
 # the default gateway for the host. This script fixes this issue while
